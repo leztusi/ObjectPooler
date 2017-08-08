@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectPooler", "ObjectPooler.csproj", "{47529BA4-85B2-294E-F88F-41F09ED9E38F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectPooler.Editor", "ObjectPooler.Editor.csproj", "{ECE3BED6-F175-281E-E950-89F98A7BFCC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47529BA4-85B2-294E-F88F-41F09ED9E38F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47529BA4-85B2-294E-F88F-41F09ED9E38F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47529BA4-85B2-294E-F88F-41F09ED9E38F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47529BA4-85B2-294E-F88F-41F09ED9E38F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECE3BED6-F175-281E-E950-89F98A7BFCC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECE3BED6-F175-281E-E950-89F98A7BFCC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECE3BED6-F175-281E-E950-89F98A7BFCC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECE3BED6-F175-281E-E950-89F98A7BFCC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="New Unity Project.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ObjectPooler\ObjectPooler.cs">
+    <Files>
+      <File FileName="Assets\Example\Scripts\ObjectPoolerExample.cs" Line="18" Column="31" />
+      <File FileName="Assets\ObjectPooler\ObjectPooler.cs" Line="93" Column="87" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
