@@ -8,6 +8,6 @@ Object Pooling help optimizing games by instantiating all the recycable prefabs 
 * You can add prefabs on Object Pooler Prefab to call later.
 * each pooled prefabs should have "ObjectPoolerPoolBack" script to Pool back the object.
 * You Grab the pooled object with
-.. `GrabObject(int Index, Vector3 Position, Quaternion Rotation)`
-..or
-..`GrabObject(string Name, Vector3 Position, Quaternion Rotation)`
+`GrabObject(int Index, Vector3 Position, Quaternion Rotation)`
+or
+`GrabObject(string Name, Vector3 Position, Quaternion Rotation)`
