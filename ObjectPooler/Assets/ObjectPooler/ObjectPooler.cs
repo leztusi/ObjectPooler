@@ -122,8 +122,12 @@ public class ObjectPooler : MonoBehaviour {
                 instance.PooledObjects[i].GO_Instances.Add(go);
                 if (instance.PooledObjects[i].GO_Instances.Count >= instance.PooledObjects[i].instanceCount && instance.ObjectsOutside.Count>0) {
                     for (int j = 0; j < instance.ObjectsOutside.Count; j++) {
-                        if (go.name == instance.ObjectsOutside[j].name) {
-                            instance.ObjectsOutside.RemoveAt(j);
+                        if (instance.ObjectsOutside[j] != null)
+                        {
+                            if (go.name == instance.ObjectsOutside[j].name)
+                            {
+                                instance.ObjectsOutside.RemoveAt(j);
+                            }
                         }
                     }
                 }
